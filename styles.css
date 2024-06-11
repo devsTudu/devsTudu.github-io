@@ -6,18 +6,12 @@ body {
     color: #fff;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
-    background-color: #0e1924;
-}
 
 .logo {
     font-size: 24px;
     font-weight: bold;
 }
+
 
 nav ul {
     list-style: none;
@@ -39,23 +33,15 @@ nav ul li a {
 .quotation-box {
     text-align: center;
     margin: 50px 0;
+    padding: 2dvh;
 }
 
 .quotation-box blockquote {
     font-size: 24px;
-    margin: 0;
+    margin: 0.3svh;
 }
 
-.quotation-box cite {
-    display: block;
-    margin-top: 10px;
-    font-size: 20px;
-}
 
-.next-quotation {
-    margin-top: 20px;
-    font-size: 18px;
-}
 
 .recent-posts {
     background-color: #fff;
@@ -97,4 +83,9 @@ nav ul li a {
 .post-content p {
     margin-top: 10px;
     font-size: 16px;
+}
+
+/* Search Button Animation */
+search-btn {
+    display: none; /* hide the search button by default */
 }
